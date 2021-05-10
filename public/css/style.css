@@ -1,0 +1,892 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'MeedoriSansBold';
+    src: url("../fonts/MeedoriSansBold.ttf");
+}
+
+@font-face {
+    font-family: 'MeedoriSansLight';
+    src: url("../fonts/MeedoriSansLight.ttf");
+}
+
+@font-face {
+    font-family: 'MeedoriSansRegular';
+    src: url("../fonts/MeedoriSansRegular.ttf");
+}
+
+
+@font-face {
+    font-family: "ROBOTO-BLACK";
+    src: url("../fonts/ROBOTO-BLACK.TTF");
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "ROBOTO-LIGHT";
+    src: url("../fonts/ROBOTO-LIGHT.TTF");
+}
+
+@font-face {
+    font-family: "ROBOTO-THIN";
+    src: url("../fonts/ROBOTO-THIN.TTF");
+}
+
+
+/* END FONTS */
+
+/* MAIN CSS */
+
+html {
+    margin: 0 !important;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.hide {
+    display: none;
+}
+
+/* END MAIN CSS */
+
+/* Footer */
+
+footer .f_bg {
+    background-image: linear-gradient(to top, #3d2683, #392b85, #392b85);
+}
+
+footer .container {
+    max-width: 1270px !important;
+    padding: 42px 15px;
+    margin: auto;
+}
+
+footer .footer-bottom-text p {
+    font-family: "Roboto-Regular";
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* End Footer */
+
+/* Home Page */
+
+.home_topBanner {
+    background-color: #3d2683;
+}
+
+.home_logoText {
+    padding-left: 108px;
+    margin-bottom: -50px;
+    position: relative;
+    font-family: 'MeedoriSansRegular';
+    font-size: 37.4px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.home_logoText span {
+    position: absolute;
+    top: -10px;
+    font-size: 19.2px;
+}
+
+.home_topSect {
+    max-width: 1270px !important;
+    padding: 60px 15px;
+    margin: auto;
+}
+
+.home_topSect_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_topRight {
+    max-width: 643.3px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.home_topRight > img {
+    width: 100%;
+    height: 100%;
+}
+
+.video_playIcon img {
+    width: 111.3px;
+    height: 111.3px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.home_topLeft {
+    padding-top: 70px;
+    padding-left: 108px;
+}
+
+.home_topLeft h1 {
+    font-family: 'MeedoriSansLight';
+    font-size: 53.9px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.home_topLeft img {
+    width: auto;
+}
+
+.log_reg_btn {
+    margin-top: 70px;
+}
+
+.log_reg_btn button {
+    width: 216.7px;
+    height: 50px;
+    border-radius: 16.7px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'MeedoriSansBold';
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #3d2683;
+    border: none;
+}
+
+.log_reg_btn button:active, .log_reg_btn button:focus, .log_reg_btn button:hover {
+    background-color: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #3d2683 !important;
+}
+
+.log_reg_btn button img {
+    margin-left: 8px;
+}
+
+.privacy-policy {
+    max-width: 216.7px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.privacy-policy a {
+    font-family: 'MeedoriSansRegular';
+    font-size: 15px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.dropzone_section_banner {
+    background: #E5E5E5;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+.dropzone_section {
+    padding: 15px;
+    max-width: 1270px;
+    width: 100%;
+    min-height: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.dropzone_section_body {
+    padding: 45px 15px 60px 15px;
+    border: dashed 3px #9a8e9c;
+}
+
+.dropzone-title {
+    font-family: 'MeedoriSansLight';
+    font-size: 25px;
+    font-weight: 300;
+    color: #555453;
+    margin-bottom: 40px;
+}
+
+.dropzone_icon img {
+    width: auto;
+    margin-bottom: 12px;
+}
+
+.dropzone_icon p, .dropzone_upload_btn p {
+    font-family: 'ROBOTO-LIGHT';
+    font-size: 15px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.dropzone_upload_btn {
+    margin-bottom: 20px;
+}
+
+.dropzone_upload_btn button {
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    font-weight: normal;
+    color: #58418b;
+    text-decoration: underline;
+}
+
+.dropzone_upload_btn button, .dropzone_upload_btn button:focus, .dropzone_upload_btn button:hover, .dropzone_upload_btn button:active {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.dropzone_next_btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 420px;
+    margin: auto;
+}
+
+.dropzone_next_btns button {
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'ROBOTO-LIGHT';
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropzone_next_btns button.cancel_btn {
+    border: solid 1px #534582;
+    background-color: transparent;
+    color: #000000;
+}
+
+.dropzone_next_btns button.next_btn {
+    border: solid 1px #534582;
+    border-radius: 20px;
+    background-color: #534582;
+    color: #ffffff;
+}
+
+/* contact css */
+
+.contact_section {
+    padding: 50px 15px 50px 15px;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.contact_section h1 {
+    font-family: 'MeedoriSansRegular';
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #555453;
+    padding-bottom: 25px;
+}
+
+.contact_section p {
+    padding-bottom: 50px;
+    font-family: 'ROBOTO-LIGHT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: #777777;
+}
+
+.contact_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_left {
+    padding-top: 25px;
+    padding-bottom: 90px;
+    width: 50%;
+    border-right: 1px solid #3D2683;
+}
+
+.contact_form {
+    max-width: 460px;
+    padding-right: 30px;
+}
+
+.contact_form label, .contact_form input {
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #C5C5C5;
+}
+
+.contact_form input {
+    width: 100%;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid rgba(85, 84, 83, 0.7);
+}
+
+.contact_form textarea {
+    width: 100%;
+    # height: 238px;
+    margin-bottom: 40px;
+    background: rgba(85, 84, 83, 0.23);
+}
+
+.contact_form button {
+    width: 135px;
+    height: 59px;
+    background: #534582;
+    border-radius: 20px;
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.send-msg-tw {
+    max-width: 248px;
+    width: 100%;
+    text-align: center;
+}
+.send-msg-tw a img {
+    width: 41px;
+    height: 34px;
+}
+
+.send-msg-tw a {
+    padding: 16px 25px;
+    text-align: center;
+    width: 209px;
+    height: 50px;
+    background: #55ACEE;
+    border-radius: 20px;
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.send-msg-tw p {
+    font-family: 'ROBOTO-LIGHT';
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    color: #646464;
+    padding-bottom: 16px;
+}
+
+/* end contact css */
+
+@media (max-width: 992px) {
+    .home_topLeft, .home_logoText {
+        padding-left: 0;
+    }
+
+    .home_topLeft {
+        padding-top: 0;
+    }
+
+    .home_logoText {
+        margin-bottom: 50px;
+    }
+
+    .home_topLeft > img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .home_topLeft h1 {
+        font-size: 30px;
+    }
+
+    .video_playIcon img {
+        width: 70.3px;
+        height: 70.3px;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact_main {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_left {
+        padding-top: 25px;
+        padding-bottom: 50px;
+        width: 100%;
+        border-right: none;
+    }
+    .contact_form {
+        margin: auto;
+        padding-right: 0;
+    }
+    .form_btn {
+        text-align: center;
+    }
+    .log_reg_btn button {
+        margin-bottom: 20px;
+    }
+
+    .home_topLeft > img {
+        display: none;
+    }
+
+    .home_topLeft h1 {
+        display: none;
+    }
+
+    .home_topSect_row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home_topLeft {
+        order: 2;
+    }
+
+    .home_topRight {
+        order: 1;
+    }
+}
+
+@media (max-width: 450px) {
+    .home_logoText {
+        font-size: 20.4px;
+    }
+
+    .home_logoText span {
+        font-size: 13.2px;
+    }
+
+    .dropzone_next_btns button {
+        width: 100px;
+        height: 40px;
+    }
+
+    .dropzone_next_btns {
+        max-width: 270px;
+    }
+}
+
+/* End Home Page */
+
+/* Login/Register Modal */
+
+#loginModal {
+    padding-right: 0 !important;
+}
+
+#loginModal .modal-dialog {
+    max-width: 1100px;
+    margin: 1.75rem auto;
+}
+
+#loginModal .modal-header {
+    border-bottom: none;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.modal-header img {
+    width: 30px;
+    height: 30px;
+    background-color: #ebebeb;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.modals .modal-body h5 {
+    font-family: 'MeedoriSansLight';
+    font-size: 50px;
+    font-weight: 300;
+    color: #555453;
+    border-bottom: 1px solid rgba(85, 84, 83, 0.7);
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.modals .modal-body {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modals .form_body input {
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #c5c5c5;
+    border: none;
+    border-bottom: 1px solid rgba(85, 84, 83, 0.7);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-bottom: 35px;
+    width: 85%;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #c5c5c5;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+    color: #c5c5c5;
+}
+
+::placeholder {
+    color: #c5c5c5;
+}
+
+.modals .form_body button {
+    max-width: 320px;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #534582;
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+}
+
+.modals .form_body .frg-psw {
+    font-family: 'Roboto-Bold';
+    font-size: 12px;
+    font-weight: bold;
+    color: #c5c5c5;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.modal_bottom_content {
+    text-align: center;
+}
+
+.modal_bottom_content p {
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #555453;
+    padding-top: 30px;
+    margin-bottom: 17px;
+    display: inline-block;
+    border-top: 1px solid #555453;
+}
+
+.modal_bottom_content a {
+    position: relative;
+    padding: 14px 28px;
+    max-width: 320px;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #007ab9;
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #ffffff !important;
+}
+
+.modal_bottom_content a img {
+    position: absolute;
+    left: 28px;
+    width: 30px;
+    margin-right: 5%;
+}
+
+.login__modal {
+    max-width: 320px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.reg__modal {
+    max-width: 320px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center-border {
+    width: 2px;
+    background-color: #c5c5c5;
+}
+
+@media (max-width: 992px) {
+    .modals .modal-body {
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .modals .modal-body h5 {
+        font-size: 34px;
+        margin-right: 0;
+    }
+
+    .modals .form_body input {
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .login__modal, .reg__modal {
+        padding: 50px 15px;
+    }
+
+    .modals .form_body button {
+        height: 42px;
+        font-size: 17px;
+    }
+
+    .modal_bottom_content a {
+        padding: 9px 5px;
+        height: 42px;
+        font-size: 17px;
+    }
+
+    .modal_bottom_content a img {
+        left: 15px;
+        width: 20px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .modals .modal-body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* End Login/Register Modal */
+
+/* Document Modal */
+
+
+ .modals #DocModal .modal-body {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#DocModal .modal-dialog {
+    max-width: 1100px;
+    margin: 1.75rem auto;
+}
+
+#DocModal .modal-header {
+    border-bottom: none;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+.document__modal {
+    width: 50%;
+}
+.document__body {
+    padding: 30px;
+}
+/*.document__body1 {*/
+/*    border: solid 5px #efefea;*/
+/*}*/
+.document__body h2 {
+    padding-bottom: 20px;
+    font-family: 'ROBOTO-LIGHT';
+    font-size: 30px;
+    font-weight: 300;
+    color: #000000;
+}
+.document__body p {
+    padding-bottom: 20px;
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    line-height: 1.47;
+    color: #000000;
+}
+.document_paging {
+    padding: 30px;
+}
+.document_paging p{
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    line-height: 1.47;
+    color: #000000;
+}
+.document__body2 {
+    position: relative;
+}
+.document_bottom_paging {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.document_bottom_paging p {
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    line-height: 1.47;
+    color: rgba(0, 0, 0, 0.5);
+}
+.document_bottom_paging>div {
+    display: flex;
+    align-items: center;
+}
+.document_bottom_paging button {
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #ebebeb;
+    background-color: #ebebeb;
+    border-radius: 50%;
+}
+.document_bottom_paging button.active_btn {
+    border: solid 1px #3d2683;
+}
+    /* End Document Modal */
+
+/* Privacy Policy */
+
+.Privacy_Policy_section {
+    max-width: 1170px;
+    width: 100%;
+    padding: 45px 50px;
+    margin: auto;
+    position: relative;
+}
+
+.Privacy_Policy_leftInfo {
+    max-width: 575px;
+    width: 100%;
+}
+
+.Privacy_Policy_leftInfo h1 {
+    font-family: 'MeedoriSansRegular';
+    font-size: 60px;
+    color: #555453;
+}
+
+.Privacy_Policy_leftInfo h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto-Bold';
+    font-weight: bold;
+    font-size: 20px;
+    color: #343434;
+}
+
+.Privacy_Policy_leftInfo p {
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #343434;
+    padding-bottom: 70px;
+}
+
+.Privacy_Policy_leftInfo a {
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #343434;
+}
+
+.Privacy_Policy_leftInfo a img {
+    width: auto;
+    margin-right: 5px;
+}
+
+.Privacy_Policy_rightImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Privacy_Policy_rightImg img {
+    width: auto;
+}
+
+/* End Privacy Policy */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
